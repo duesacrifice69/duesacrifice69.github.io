@@ -1,3 +1,242 @@
-body {background-color: darkgrey;
-      color: white;
-} 
+h2 {
+      text-transform: uppercase;
+      line-height: 1.6em;
+}
+
+body {
+      background-color: aquamarine;
+      color: #000000;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+
+      /* Same as above */
+      font: normal 16px Arial, Helvetica, sans-serif;
+
+      line-height: 1.6em;
+      margin: 0;
+}
+
+a {
+      text-decoration: none;
+      color: #000000;
+}
+
+a:hover {
+      color: brown;
+}
+
+a:active {
+      color: green;
+}
+
+a:visited {
+      color: purple;
+}
+
+.button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+}
+
+.button:hover {
+      background-color: green;
+      color: #ffffff;
+}
+
+.row {
+      width: 100%;
+      margin: auto;
+      padding: 0;
+}
+
+.clear {
+      clear: both;
+}
+
+.box-a {
+      background-color: #333;
+      color: #fff;
+
+      /* Border */
+      border-top: 5px green solid;
+      border-bottom: 5px green solid;
+      border-right: 5px green solid;
+      border-left: 5px green solid;
+
+      border-width: 7px;
+
+      /* Same as above */
+      border: 5px green solid;
+
+      border-top-width: 12px;
+      border-top-style: dotted;
+      border-top-color: green;
+
+      /* Padding */
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 20px;
+      padding-left: 20px;
+
+      /* Same as above */
+      padding: 20px;
+
+      /* Margin */
+      margin-top: 40px;
+      margin: 20px 0;
+
+}
+
+.container {
+      width: 80%;
+      margin: auto;
+}
+
+.box-a h2 {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: 800;
+      font-style: italic;
+      text-decoration: none;
+      text-transform: capitalize;
+      letter-spacing: 0.1em;
+      word-spacing: 0.3em;
+}
+
+.box-b {
+      border: 4px #000000 dashed;
+      padding: 20px;
+      margin: 20px 0;
+}
+
+/* List */
+.categories {
+      border: 2px solid rgb(0, 0, 0);
+      margin-bottom: 30px;
+      border-radius: 15px;
+      padding: 10px;
+}
+
+.categories h3 {
+      text-align: center;
+      text-decoration: underline;
+}
+
+.categories ul {
+      padding: 0;
+      padding-left: 20px;
+      list-style-type: square;
+      list-style-type: none;
+}
+
+.categories li {
+      padding-bottom: 8px;
+      border-bottom: #000000 dotted 2px;
+      list-style-image: url(../img/user.png);
+}
+
+/* Form */
+
+.frm {
+      padding: 20px;
+      padding-left: 0;
+}
+
+.frm .form-group {
+      padding-bottom: 15px;
+}
+
+.frm label {
+      display: block;
+}
+
+.frm input[type="text"],
+.frm input[type="email"],
+.frm textarea {
+      padding: 8px;
+      width: 100%;
+}
+
+/* Services Section */
+
+.block {
+      float: left;
+      width: 30.33%;
+      border: 1px #000 solid;
+      padding: 10px;
+      box-sizing: border-box;
+      margin: 10px 1.5%;
+}
+
+/* Main section and sidebar */
+
+#main-block {
+      float: left;
+      width: 70%;
+      padding: 10px;
+      box-sizing: border-box;
+}
+
+#sidebar {
+      float: right;
+      width: 30%;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      box-sizing: border-box;
+}
+
+/* Positioning */
+
+.p-box {
+      margin-top: 30px;
+      width: 670px;
+      height: 500px;
+      border: 1px #000 solid;
+      position: relative;
+      background-image: url(../img/bgimg.jpg);
+      background-position: 100px 200px;
+      background-repeat: no-repeat;
+      background-position: left bottom;
+      background-size: cover;
+}
+
+.p-box h2 {
+      position: absolute;
+      top: 40px;
+      text-decoration: none;
+}
+
+.p-box h3 {
+      position: absolute;
+      bottom: 50px;
+      left: 150px;
+      color: purple;
+      /* z-index: 0; */
+}
+
+.fixed-btn {
+      position: fixed;
+      top: 400px;
+      right: 0;
+}
+
+/* List Items */
+.lst li:first-child {
+      background-color: blue;
+}
+
+.lst li:last-child {
+      background-color: chartreuse;
+}
+
+.lst li:nth-child(6) {
+      background-color: chocolate;
+}
+
+.lst li:nth-child(odd) {
+      background-color: blueviolet;
+}
