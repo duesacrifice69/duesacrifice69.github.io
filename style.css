@@ -175,25 +175,30 @@ a:visited {
 
 #main-block {
       float: left;
-      width: 70%;
+      width: 65%;
       padding: 10px;
       box-sizing: border-box;
 }
 
 #sidebar {
       float: right;
-      width: 30%;
-      background-color: #333;
+      width: 35%;
+      margin-top: 25px;
+      background-color: rgb(27, 164, 255);
       color: #fff;
-      padding: 10px;
+      padding: 6px 6px 0.1px 6px;
       box-sizing: border-box;
+}
+
+#sidebar {
+      opacity: 0.8;
 }
 
 /* Positioning */
 
 .p-box {
       margin-top: 30px;
-      width: 670px;
+      width: 100%;
       height: 500px;
       border: 1px #000 solid;
       position: relative;
@@ -202,6 +207,10 @@ a:visited {
       background-repeat: no-repeat;
       background-position: left bottom;
       background-size: cover;
+}
+
+#pboxv {
+      opacity: 0.4;
 }
 
 .p-box h2 {
