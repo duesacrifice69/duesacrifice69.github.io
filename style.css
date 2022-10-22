@@ -30,8 +30,9 @@ a:active {
       color: green;
 }
 
-a:visited {
-      color: purple;
+
+#changecolor{
+      color: rgb(170, 255, 13);
 }
 
 .button {
@@ -141,23 +142,72 @@ a:visited {
 /* Form */
 
 .frm {
+      font-weight: 600;
+      border: 1px solid rgba(0, 0, 0, 0.562);
+      border-radius: 10px;
       padding: 20px;
-      padding-left: 0;
+      margin: 0;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      background-color: rgba(145, 145, 145, 0.521);
 }
 
 .frm .form-group {
-      padding-bottom: 15px;
+      padding-right: 20px;
+      padding-bottom: 20px;
 }
 
 .frm label {
       display: block;
 }
 
+#form-gender {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: system-ui, sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      margin-left: 1in;
+}
+#form-checkbox {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 18px;
+      font-weight:500;
+}
+
+input[type="checkbox"] {
+      display: inline-block;
+      vertical-align: -40%;
+      padding-top: 10px;
+      margin: 5px;
+      border: 5px #000;
+      width: 25px;
+      height: 25px;
+
+}
+input[type="radio"] {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 5px;
+      background-color: #fff;
+      width: 20px;
+      height: 20px;
+      border: 5px solid #000;
+      border-radius: 50%;
+      transform: translateY(-0.075em);
+
+}
+
+
 .frm input[type="text"],
 .frm input[type="email"],
+.frm input[type="password"],
+.frm input[type="date"],
 .frm textarea {
       padding: 8px;
       width: 100%;
+      border-radius: 4px;
 }
 
 /* Services Section */
@@ -166,6 +216,7 @@ a:visited {
       float: left;
       width: 30.33%;
       border: 1px #000 solid;
+      border-radius: 4px;
       padding: 10px;
       box-sizing: border-box;
       margin: 10px 1.5%;
