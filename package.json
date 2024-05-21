@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.105.3",
+    "@react-three/fiber": "^8.16.1",
+    "framer-motion": "^11.0.27",
+    "maath": "^0.10.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-parallax-tilt": "^1.7.220",
+    "react-router-dom": "^6.22.3",
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.163.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.3.2",
+    "vite": "^5.2.0"
+  }
+}
